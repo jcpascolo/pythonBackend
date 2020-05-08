@@ -1,0 +1,23 @@
+version: "3"
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    volumes:
+      - /home/jkp/Escritorio/djangoProjects/pythonBackETS/pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=superrootPassword987
+  
+  redis:
+    container_name: redis
+    image: redis
+    environment:
+      - REDIS_REPLICATION_MODE=master
+      - REDIS_PASSWORD=testingredis
+    ports:
+      - 6379:6379
+    volumes:
+      - /home/jcgp/Escritorio/djangoProjects/pythonBackETS/rdata:/var/lib/redis/dump.rdb

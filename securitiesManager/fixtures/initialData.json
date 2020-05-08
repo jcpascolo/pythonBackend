@@ -1,0 +1,308 @@
+[
+    {
+        "pk": 1,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR0"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR1"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR2"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR3"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR4"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR5"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR6"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR7"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR8"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "securitiesManager.security",
+        "fields": {
+            "name": "SCR9"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "securitiesManager.index",
+        "fields": {
+            "name": "INDX0",
+            "securities": [
+                1,
+                3,
+                5,
+                7,
+                9
+            ]
+        }
+    },
+    {
+        "pk": 2,
+        "model": "securitiesManager.index",
+        "fields": {
+            "name": "INDX1",
+            "securities": [
+                2,
+                4,
+                6,
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "pk": 3,
+        "model": "securitiesManager.index",
+        "fields": {
+            "name": "INDX2",
+            "securities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "pk": 1,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 1,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 2,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 2,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 3,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 3,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 4,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 4,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 5,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 5,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 6,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 6,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 7,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 7,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 7,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 7,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 8,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 8,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 9,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 9,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 10,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 3,
+            "securityId": 10,
+            "weight": 10
+        }
+    },
+    {
+        "pk": 11,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 1,
+            "securityId": 1,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 12,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 1,
+            "securityId": 3,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 13,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 1,
+            "securityId": 5,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 14,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 1,
+            "securityId": 7,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 15,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 1,
+            "securityId": 9,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 16,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 2,
+            "securityId": 2,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 17,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 2,
+            "securityId": 4,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 18,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 2,
+            "securityId": 6,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 19,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 2,
+            "securityId": 8,
+            "weight": 20
+        }
+    },
+    {
+        "pk": 20,
+        "model": "securitiesManager.weight",
+        "fields": {
+            "indexId": 2,
+            "securityId": 10,
+            "weight": 20
+        }
+    }
+]
