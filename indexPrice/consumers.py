@@ -17,3 +17,6 @@ class IndexPriceConsumer(WebsocketConsumer):
         self.send(text_data=json.dumps({
             'message': message
         }))
+
+    def test_channel(self, event):
+        print("Index with channel")

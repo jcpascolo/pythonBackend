@@ -1,6 +1,6 @@
 import json
 from channels.generic.websocket import WebsocketConsumer
-from channels.db import database_sync_to_async
+from asgiref.sync import async_to_sync
 from securitiesManager.models import Security, Price
 
 from django.core.exceptions import ObjectDoesNotExist
@@ -9,6 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 class SecurityPriceConsumer(WebsocketConsumer):
     def connect(self):
         print("Request received")
+        self.channel_layer.group_add("security_manage", self.channel_name)
         self.accept()
 
     def disconnect(self, close_code):
@@ -22,6 +23,14 @@ class SecurityPriceConsumer(WebsocketConsumer):
         security = self.search_security(received_security_name)
 
         self.insert_price(message, security)
+
+        print("SELF:")
+        print(self.channel_name)
+
+        async_to_sync(self.channel_layer.group_send)("security_manage", {
+            "type": "test.channel",
+            "message": "In the channel"
+        })
 
         # self.send({
         # "type": "websocket.send",
@@ -43,3 +52,6 @@ class SecurityPriceConsumer(WebsocketConsumer):
                       date=message["date"], price=message["price"])
         price.save()
         return price
+
+    def test_channel(self, event):
+        print("SELF CHANNEL")
