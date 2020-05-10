@@ -120,8 +120,8 @@
         "pk": 1,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 1,
+            "index": 3,
+            "security": 1,
             "weight": 10
         }
     },
@@ -129,8 +129,8 @@
         "pk": 2,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 2,
+            "index": 3,
+            "security": 2,
             "weight": 10
         }
     },
@@ -138,8 +138,8 @@
         "pk": 3,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 3,
+            "index": 3,
+            "security": 3,
             "weight": 10
         }
     },
@@ -147,8 +147,8 @@
         "pk": 4,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 4,
+            "index": 3,
+            "security": 4,
             "weight": 10
         }
     },
@@ -156,8 +156,8 @@
         "pk": 5,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 5,
+            "index": 3,
+            "security": 5,
             "weight": 10
         }
     },
@@ -165,8 +165,8 @@
         "pk": 6,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 6,
+            "index": 3,
+            "security": 6,
             "weight": 10
         }
     },
@@ -174,8 +174,8 @@
         "pk": 7,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 7,
+            "index": 3,
+            "security": 7,
             "weight": 10
         }
     },
@@ -183,8 +183,8 @@
         "pk": 7,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 7,
+            "index": 3,
+            "security": 7,
             "weight": 10
         }
     },
@@ -192,8 +192,8 @@
         "pk": 8,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 8,
+            "index": 3,
+            "security": 8,
             "weight": 10
         }
     },
@@ -201,8 +201,8 @@
         "pk": 9,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 9,
+            "index": 3,
+            "security": 9,
             "weight": 10
         }
     },
@@ -210,8 +210,8 @@
         "pk": 10,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 3,
-            "securityId": 10,
+            "index": 3,
+            "security": 10,
             "weight": 10
         }
     },
@@ -219,8 +219,8 @@
         "pk": 11,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 1,
-            "securityId": 1,
+            "index": 1,
+            "security": 1,
             "weight": 20
         }
     },
@@ -228,8 +228,8 @@
         "pk": 12,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 1,
-            "securityId": 3,
+            "index": 1,
+            "security": 3,
             "weight": 20
         }
     },
@@ -237,8 +237,8 @@
         "pk": 13,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 1,
-            "securityId": 5,
+            "index": 1,
+            "security": 5,
             "weight": 20
         }
     },
@@ -246,8 +246,8 @@
         "pk": 14,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 1,
-            "securityId": 7,
+            "index": 1,
+            "security": 7,
             "weight": 20
         }
     },
@@ -255,8 +255,8 @@
         "pk": 15,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 1,
-            "securityId": 9,
+            "index": 1,
+            "security": 9,
             "weight": 20
         }
     },
@@ -264,8 +264,8 @@
         "pk": 16,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 2,
-            "securityId": 2,
+            "index": 2,
+            "security": 2,
             "weight": 20
         }
     },
@@ -273,8 +273,8 @@
         "pk": 17,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 2,
-            "securityId": 4,
+            "index": 2,
+            "security": 4,
             "weight": 20
         }
     },
@@ -282,8 +282,8 @@
         "pk": 18,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 2,
-            "securityId": 6,
+            "index": 2,
+            "security": 6,
             "weight": 20
         }
     },
@@ -291,8 +291,8 @@
         "pk": 19,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 2,
-            "securityId": 8,
+            "index": 2,
+            "security": 8,
             "weight": 20
         }
     },
@@ -300,9 +300,216 @@
         "pk": 20,
         "model": "securitiesManager.weight",
         "fields": {
-            "indexId": 2,
-            "securityId": 10,
+            "index": 2,
+            "security": 10,
             "weight": 20
+        }
+    },
+    {
+        "pk": 1,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 1,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 2,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 3,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 4,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 4,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 5,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 5,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 6,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 7,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 7,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 8,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 8,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 9,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 9,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 10,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 10,
+            "date": "2020-04-09",
+            "price": 1
+        }
+    },
+    {
+        "pk": 11,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 1,
+            "date": "2020-05-09",
+            "price": 1.1
+        }
+    },
+    {
+        "pk": 12,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 2,
+            "date": "2020-05-09",
+            "price": 2.2
+        }
+    },
+    {
+        "pk": 13,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 3,
+            "date": "2020-05-09",
+            "price": 3.3
+        }
+    },
+    {
+        "pk": 14,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 4,
+            "date": "2020-05-09",
+            "price": 4.4
+        }
+    },
+    {
+        "pk": 15,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 5,
+            "date": "2020-05-09",
+            "price": 5.5
+        }
+    },
+    {
+        "pk": 16,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 6,
+            "date": "2020-05-09",
+            "price": 6.6
+        }
+    },
+    {
+        "pk": 17,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 7,
+            "date": "2020-05-09",
+            "price": 7.7
+        }
+    },
+    {
+        "pk": 18,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 8,
+            "date": "2020-05-09",
+            "price": 8.8
+        }
+    },
+    {
+        "pk": 19,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 9,
+            "date": "2020-05-09",
+            "price": 9.9
+        }
+    },
+    {
+        "pk": 20,
+        "model": "securitiesManager.price",
+        "fields": {
+            "security": 10,
+            "date": "2020-05-09",
+            "price": 11
+        }
+    },
+    {
+        "pk": 1,
+        "model": "securitiesManager.index_price",
+        "fields": {
+            "index": 1,
+            "date": "2020-05-09",
+            "price": 100
+        }
+    },
+    {
+        "pk": 2,
+        "model": "securitiesManager.index_price",
+        "fields": {
+            "index": 2,
+            "date": "2020-05-09",
+            "price": 100
+        }
+    },
+    {
+        "pk": 3,
+        "model": "securitiesManager.index_price",
+        "fields": {
+            "index": 3,
+            "date": "2020-05-09",
+            "price": 100
         }
     }
 ]

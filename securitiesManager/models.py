@@ -14,7 +14,7 @@ class Index(models.Model):
 class Price(models.Model):
     security = models.ForeignKey(
         Security, on_delete=models.CASCADE, default=1)
-    date = models.DateTimeField(blank=True, null=True)
+    date = models.DateField(blank=True, null=True)
     price = models.FloatField(blank=True, null=True)
 
 
@@ -23,3 +23,9 @@ class Weight(models.Model):
     security = models.ForeignKey(
         Security, on_delete=models.CASCADE, default=1)
     weight = models.FloatField()
+
+
+class Index_price(models.Model):
+    index = models.ForeignKey(Index, on_delete=models.CASCADE, default=1)
+    date = models.DateField(blank=True, null=True)
+    price = models.FloatField(blank=True, null=True)
