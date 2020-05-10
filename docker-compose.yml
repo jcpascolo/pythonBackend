@@ -11,13 +11,3 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=superrootPassword987
   
-  redis:
-    container_name: redis
-    image: redis
-    environment:
-      - REDIS_REPLICATION_MODE=master
-      - REDIS_PASSWORD=testingredis
-    ports:
-      - 6379:6379
-    volumes:
-      - /home/jcgp/Escritorio/djangoProjects/pythonBackETS/rdata:/var/lib/redis/dump.rdb
