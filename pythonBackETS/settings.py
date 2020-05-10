@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'securitiesManager',
     'channels',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
