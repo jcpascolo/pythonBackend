@@ -89,7 +89,7 @@
                     let message = {
                         securityName: "SCR" + (i % 10),
                         date: new Date(),
-                        price: parseFloat((i * 0.25).toFixed(2))
+                        price: parseFloat((i * 0.05).toFixed(2))
                     }
 
                     socket.send(JSON.stringify({
