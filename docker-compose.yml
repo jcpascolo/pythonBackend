@@ -6,6 +6,7 @@ services:
     ports:
       - 5432:5432
     volumes:
+      - ./initDB.sql:/docker-entrypoint-initdb.d/1-schema.sql
       - /home/jkp/Escritorio/djangoProjects/pythonBackETS/pgdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=postgres

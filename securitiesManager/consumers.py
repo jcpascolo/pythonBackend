@@ -49,7 +49,8 @@ class SecurityPriceConsumer(WebsocketConsumer):
 
             self.send(text_data=json.dumps({
                 'message': {
-                    'index': new_index_price.index.name,
+                    'indexId': new_index_price.index.id,
+                    'indexName': new_index_price.index.name,
                     'date': str(new_index_price.date),
                     'price': new_index_price.price
                 }
