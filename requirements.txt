@@ -95,7 +95,7 @@ nassl==2.1.2
 nbformat==4.4.0
 numpy==1.16.2
 olefile==0.46
-paramiko==2.4.2
+paramiko==2.10.1
 passlib==1.7.1
 patator==0.7
 pefile==2018.8.8
