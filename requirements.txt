@@ -99,7 +99,7 @@ paramiko==2.4.2
 passlib==1.7.1
 patator==0.7
 pefile==2018.8.8
-Pillow==5.4.1
+Pillow==9.3.0
 plotly==3.6.1
 pluginbase==1.0.0
 ply==3.11
