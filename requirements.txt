@@ -23,7 +23,7 @@ boltons==18.0.1
 Brlapi==0.6.7
 Brotli==1.0.7
 capstone==3.0.5
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.14.0
 channels==2.4.0
 chardet==3.0.4
